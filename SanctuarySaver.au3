@@ -1,298 +1,548 @@
-Opt("WinTitleMatchMode",2)
-Global $rpgwindow = WinGetHandle("SanctuaryRPG: Black Edition")
+Global $Pause = True
 
 
 HotKeySet("a", 'abcdefghi')
 
 Func abcdefghi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","a{ENTER}")
+   HotKeySet("a")
+   Send("a")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("a", 'abcdefghi')
 EndFunc
 
 
 HotKeySet("b", 'abcdefgih')
 
 Func abcdefgih()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","b{ENTER}")
+   HotKeySet("b")
+   Send("b")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("b", 'abcdefgih')
 EndFunc
 
 
 HotKeySet("c", 'abcdefhgi')
 
 Func abcdefhgi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","c{ENTER}")
+   HotKeySet("c")
+   Send("c")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("c", 'abcdefhgi')
 EndFunc
 
 
 HotKeySet("d", 'abcdefhig')
 
 Func abcdefhig()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","d{ENTER}")
+   HotKeySet("d")
+   Send("d")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("d", 'abcdefhig')
 EndFunc
 
 
 HotKeySet("e", 'abcdefigh')
 
 Func abcdefigh()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","e{ENTER}")
+   HotKeySet("e")
+   Send("e")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("e", 'abcdefigh')
 EndFunc
 
 
 HotKeySet("f", 'abcdefihg')
 
 Func abcdefihg()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","f{ENTER}")
+   HotKeySet("f")
+   Send("f")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("f", 'abcdefihg')
 EndFunc
 
 
 HotKeySet("g", 'abcdegfhi')
 
 Func abcdegfhi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","g{ENTER}")
+   HotKeySet("g")
+   Send("g")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("g", 'abcdegfhi')
 EndFunc
 
 
 HotKeySet("h", 'abcdegfih')
 
 Func abcdegfih()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","h{ENTER}")
+   HotKeySet("h")
+   Send("h")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("h", 'abcdegfih')
 EndFunc
 
 
 HotKeySet("i", 'abcdeghfi')
 
 Func abcdeghfi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","i{ENTER}")
+   HotKeySet("i")
+   Send("i")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("i", 'abcdeghfi')
 EndFunc
 
 
 HotKeySet("j", 'abcdeghif')
 
 Func abcdeghif()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","j{ENTER}")
+   HotKeySet("j")
+   Send("j")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("j", 'abcdeghif')
 EndFunc
 
 
 HotKeySet("k", 'abcdegifh')
 
 Func abcdegifh()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","k{ENTER}")
+   HotKeySet("k")
+   Send("k")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("k", 'abcdegifh')
 EndFunc
 
 
 HotKeySet("l", 'abcdegihf')
 
 Func abcdegihf()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","l{ENTER}")
+   HotKeySet("l")
+   Send("l")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("l", 'abcdegihf')
 EndFunc
 
 
 HotKeySet("m", 'abcdehfgi')
 
 Func abcdehfgi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","m{ENTER}")
+   HotKeySet("m")
+   Send("m")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("m", 'abcdehfgi')
 EndFunc
 
 
 HotKeySet("n", 'abcdehfig')
 
 Func abcdehfig()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","n{ENTER}")
+   HotKeySet("n")
+   Send("n")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("n", 'abcdehfig')
 EndFunc
 
 
 HotKeySet("o", 'abcdehgfi')
 
 Func abcdehgfi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","o{ENTER}")
+   HotKeySet("o")
+   Send("o")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("o", 'abcdehgfi')
 EndFunc
 
 
 HotKeySet("p", 'abcdehgif')
 
 Func abcdehgif()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","p{ENTER}")
+   HotKeySet("p")
+   Send("p")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("p", 'abcdehgif')
 EndFunc
 
 
 HotKeySet("q", 'abcdehifg')
 
 Func abcdehifg()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","q{ENTER}")
+   HotKeySet("q")
+   Send("q")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("q", 'abcdehifg')
 EndFunc
 
 
 HotKeySet("r", 'abcdehigf')
 
 Func abcdehigf()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","r{ENTER}")
+   HotKeySet("r")
+   Send("r")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("r", 'abcdehigf')
 EndFunc
 
 
 HotKeySet("s", 'abcdeifgh')
 
 Func abcdeifgh()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","s{ENTER}")
+   HotKeySet("s")
+   Send("s")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("s", 'abcdeifgh')
 EndFunc
 
 
 HotKeySet("t", 'abcdeifhg')
 
 Func abcdeifhg()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","t{ENTER}")
+   HotKeySet("t")
+   Send("t")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("t", 'abcdeifhg')
 EndFunc
 
 
 HotKeySet("u", 'abcdeigfh')
 
 Func abcdeigfh()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","u{ENTER}")
+   HotKeySet("u")
+   Send("u")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("u", 'abcdeigfh')
 EndFunc
 
 
 HotKeySet("v", 'abcdeighf')
 
 Func abcdeighf()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","v{ENTER}")
+   HotKeySet("v")
+   Send("v")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("v", 'abcdeighf')
 EndFunc
 
 
 HotKeySet("w", 'abcdeihfg')
 
 Func abcdeihfg()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","w{ENTER}")
+   HotKeySet("w")
+   Send("w")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("w", 'abcdeihfg')
 EndFunc
 
 
 HotKeySet("x", 'abcdeihgf')
 
 Func abcdeihgf()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","x{ENTER}")
+   HotKeySet("x")
+   Send("x")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("x", 'abcdeihgf')
 EndFunc
 
 
 HotKeySet("y", 'abcdfeghi')
 
 Func abcdfeghi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","y{ENTER}")
+   HotKeySet("y")
+   Send("y")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("y", 'abcdfeghi')
 EndFunc
 
 
 HotKeySet("z", 'abcdfegih')
 
 Func abcdfegih()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","z{ENTER}")
+   HotKeySet("z")
+   Send("z")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("z", 'abcdfegih')
 EndFunc
 
 
 HotKeySet("{NUMPAD0}", 'abcdfehgi')
 
 Func abcdfehgi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD0}{ENTER}")
+   HotKeySet("{NUMPAD0}")
+   Send("{NUMPAD0}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD0}", 'abcdfehgi')
 EndFunc
 
 
 HotKeySet("{NUMPAD1}", 'abcdfehig')
 
 Func abcdfehig()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD1}{ENTER}")
+   HotKeySet("{NUMPAD1}")
+   Send("{NUMPAD1}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD1}", 'abcdfehig')
 EndFunc
 
 
 HotKeySet("{NUMPAD2}", 'abcdfeigh')
 
 Func abcdfeigh()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD2}{ENTER}")
+   HotKeySet("{NUMPAD2}")
+   Send("{NUMPAD2}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD2}", 'abcdfeigh')
 EndFunc
 
 
 HotKeySet("{NUMPAD3}", 'abcdfeihg')
 
 Func abcdfeihg()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD3}{ENTER}")
+   HotKeySet("{NUMPAD3}")
+   Send("{NUMPAD3}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD3}", 'abcdfeihg')
 EndFunc
 
 
 HotKeySet("{NUMPAD4}", 'abcdfgehi')
 
 Func abcdfgehi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD4}{ENTER}")
+   HotKeySet("{NUMPAD4}")
+   Send("{NUMPAD4}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD4}", 'abcdfgehi')
 EndFunc
 
 
 HotKeySet("{NUMPAD5}", 'abcdfgeih')
 
 Func abcdfgeih()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD5}{ENTER}")
+   HotKeySet("{NUMPAD5}")
+   Send("{NUMPAD5}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD5}", 'abcdfgeih')
 EndFunc
 
 
 HotKeySet("{NUMPAD6}", 'abcdfghei')
 
 Func abcdfghei()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD6}{ENTER}")
+   HotKeySet("{NUMPAD6}")
+   Send("{NUMPAD6}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD6}", 'abcdfghei')
 EndFunc
 
 
 HotKeySet("{NUMPAD7}", 'abcdfghie')
 
 Func abcdfghie()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD7}{ENTER}")
+   HotKeySet("{NUMPAD7}")
+   Send("{NUMPAD7}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD7}", 'abcdfghie')
 EndFunc
 
 
 HotKeySet("{NUMPAD8}", 'abcdfgieh')
 
 Func abcdfgieh()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD8}{ENTER}")
+   HotKeySet("{NUMPAD8}")
+   Send("{NUMPAD8}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD8}", 'abcdfgieh')
 EndFunc
 
 
 HotKeySet("{NUMPAD9}", 'abcdfgihe')
 
 Func abcdfgihe()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPAD9}{ENTER}")
+   HotKeySet("{NUMPAD9}")
+   Send("{NUMPAD9}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPAD9}", 'abcdfgihe')
 EndFunc
 
 
 HotKeySet("{NUMPADMULT}", 'abcdfhegi')
 
 Func abcdfhegi()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPADMULT}{ENTER}")
+   HotKeySet("{NUMPADMULT}")
+   Send("{NUMPADMULT}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPADMULT}", 'abcdfhegi')
 EndFunc
 
 
 HotKeySet("{NUMPADADD}", 'abcdfheig')
 
 Func abcdfheig()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPADADD}{ENTER}")
+   HotKeySet("{NUMPADADD}")
+   Send("{NUMPADADD}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPADADD}", 'abcdfheig')
 EndFunc
 
 
 HotKeySet("{NUMPADSUB}", 'abcdfhgei')
 
 Func abcdfhgei()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPADSUB}{ENTER}")
+   HotKeySet("{NUMPADSUB}")
+   Send("{NUMPADSUB}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPADSUB}", 'abcdfhgei')
 EndFunc
 
 
 HotKeySet("{NUMPADDIV}", 'abcdfhgie')
 
 Func abcdfhgie()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPADDIV}{ENTER}")
+   HotKeySet("{NUMPADDIV}")
+   Send("{NUMPADDIV}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPADDIV}", 'abcdfhgie')
 EndFunc
 
 
 HotKeySet("{NUMPADDOT}", 'abcdfhieg')
 
 Func abcdfhieg()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","{NUMPADDOT}{ENTER}")
+   HotKeySet("{NUMPADDOT}")
+   Send("{NUMPADDOT}")
+   If $Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("{NUMPADDOT}", 'abcdfhieg')
 EndFunc
 
 
 HotKeySet("{F2}", '_exit')
+HotKeySet("{F3}", '_pause')
 
 Func _exit()
    Exit
+EndFunc
+
+Func _pause()
+   $Pause = NOT $Pause
 EndFunc
 
 While 1

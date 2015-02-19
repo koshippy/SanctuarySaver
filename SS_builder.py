@@ -6,13 +6,20 @@ hotkey_template = '''
 HotKeySet("HOTKEY_HERE", 'HOTKEY_FUNCTIONNAME')
 
 Func HOTKEY_FUNCTIONNAME()
-   If WinActive($rpgwindow) Then ControlSend($rpgwindow,"","","HOTKEY_HERE{ENTER}")
+   HotKeySet("HOTKEY_HERE")
+   Send("HOTKEY_HERE")
+   If Pause Then
+      Sleep(20)
+      Send("{ENTER}")
+   EndIf
+   HotKeySet("HOTKEY_HERE", 'HOTKEY_FUNCTIONNAME')
 EndFunc
 
 '''
 
 tfile = '''Opt("WinTitleMatchMode",2)
 Global $rpgwindow = WinGetHandle("SanctuaryRPG: Black Edition")
+Global Pause = True
 
 '''
 names = itertools.permutations('abcdefghi')
@@ -21,9 +28,14 @@ for hotkey in hotkeys:
 
 tfile += '''
 HotKeySet("{F2}", '_exit')
+HotKeySet("{F3}", '_pause')
 
 Func _exit()
    Exit
+EndFunc
+
+Func _pause()
+   Pause = NOT Pause
 EndFunc
 
 While 1
